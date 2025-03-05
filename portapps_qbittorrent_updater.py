@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 import subprocess
 
 
-os.system('portapps.io qBittorrent updater v1.0 (mirbyte)')
+os.system('title portapps.io qBittorrent updater v1.0 (mirbyte)')
 # print("")
 
 def get_latest_launcher_version():
