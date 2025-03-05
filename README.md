@@ -1,9 +1,10 @@
-# portapps-qBittorrent-updater
+# portapps.io qBittorrent updater
 ### Usage
-- place inside the qbittorrent folder ...
+- place the exe & 7zip folder inside the qbittorrent folder...
 
 
 
+<br>
 <br>
 <br>
 
