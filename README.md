@@ -5,7 +5,7 @@
 [![Latest Release](https://img.shields.io/github/release/mirbyte/portapps-qBittorrent-updater.svg?color=blue&maxAge=86400)](https://github.com/mirbyte/portapps-qBittorrent-updater/releases/latest)
 ![LastCommit](https://img.shields.io/github/last-commit/mirbyte/portapps-qBittorrent-updater?color=blue&label=repo+updated)
 
-This is an automatic updater for the [qBittorrent Portable](https://github.com/portapps/qbittorrent-portable) project. It simplifies the process of keeping your portable qBittorrent installation up-to-date by automatically checking for new releases, downloading the latest version, and updating the necessary files.
+This is an automatic updater for the [qBittorrent Portable](https://github.com/portapps/qbittorrent-portable) client. It simplifies the process of keeping your portable qBittorrent installation up-to-date by automatically checking for new releases, downloading the latest version, and updating the necessary files.
 
 ### Usage
 1. Download the zip from **[Releases](https://github.com/mirbyte/portapps-qBittorrent-updater/releases)**
