@@ -15,7 +15,8 @@ This is an automatic updater for the [qBittorrent Portable](https://github.com/p
 
 
 <br>
-the folder should look something like this
+the folder should look something like this:
+
 
 ![exampleqb](https://github.com/user-attachments/assets/16f01b4b-70d2-4696-9bd9-314716db999c)
 
