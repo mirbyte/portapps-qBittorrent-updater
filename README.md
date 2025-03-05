@@ -1,6 +1,6 @@
 # portapps.io qBittorrent updater
 
-This is an automatic updater for the [qBittorrent Portable from portapps](https://github.com/portapps/qbittorrent-portable) project. It simplifies the process of keeping your portable qBittorrent installation up-to-date by automatically checking for new releases, downloading the latest version, and updating the necessary files.
+This is an automatic updater for the [qBittorrent Portable](https://github.com/portapps/qbittorrent-portable) project. It simplifies the process of keeping your portable qBittorrent installation up-to-date by automatically checking for new releases, downloading the latest version, and updating the necessary files.
 
 ### Usage
 1. Download the zip from the [Releases](https://github.com/mirbyte/portapps-qBittorrent-updater/releases) (in progress)
