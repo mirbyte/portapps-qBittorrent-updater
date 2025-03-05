@@ -16,5 +16,3 @@ This is an automatic updater for the [qBittorrent Portable](https://github.com/p
 
 for alternative, check https://github.com/qbittorrent/qBittorrent/wiki/How-to-use-portable-mode
 
-
-https://github.com/portapps/qbittorrent-portable
