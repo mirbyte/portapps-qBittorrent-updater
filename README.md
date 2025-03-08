@@ -1,4 +1,4 @@
-# Portapps.io qBittorrent Updater
+# Portapps qBittorrent Updater
 [![License](https://img.shields.io/github/license/mirbyte/portapps-qBittorrent-updater?color=blue&maxAge=604800)](https://raw.githubusercontent.com/mirbyte/portapps-qBittorrent-updater/master/LICENSE)
 ![Size](https://img.shields.io/github/repo-size/mirbyte/portapps-qBittorrent-updater?label=size&color=blue&maxAge=86400)
 [![Download Count](https://img.shields.io/github/downloads/mirbyte/portapps-qBittorrent-updater/total?color=blue&maxAge=86400)](https://github.com/mirbyte/portapps-qBittorrent-updater/releases)
