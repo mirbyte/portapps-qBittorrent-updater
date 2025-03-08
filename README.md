@@ -13,6 +13,12 @@ This is an automatic updater for the [qBittorrent Portable](https://github.com/p
 3. Run the .exe file
 4. Done
 
+## Notice of Non-Affiliation and Disclaimer
+I am not affiliated, associated, authorized, endorsed by, or in any way officially connected with qBittorrent™, Portapps, or any of their subsidiaries or their affiliates.
+
+The official qBittorrent™ website can be found at https://www.qbittorrent.org/.
+
+The name qBittorrent™ as well as related names, marks, emblems and images are registered trademarks of their respective owners.
 
 <br>
 <br>
