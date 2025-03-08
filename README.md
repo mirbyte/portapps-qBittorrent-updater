@@ -7,7 +7,7 @@
 
 This is an automatic updater for the [qBittorrent Portable](https://github.com/portapps/qbittorrent-portable) client. It simplifies the process of keeping your portable qBittorrent installation up-to-date by automatically checking for new releases, downloading the latest version, and updating the necessary files.
 
-### Usage
+## Usage
 1. Download the zip from **[Releases](https://github.com/mirbyte/portapps-qBittorrent-updater/releases)**
 2. Extract & copy the contents to the folder containing "qbittorrent-portable.exe"
 3. Run the .exe file
