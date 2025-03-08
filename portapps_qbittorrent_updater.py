@@ -117,47 +117,6 @@ def is_file_locked(file_path):
         return True
 
 
-def download_qbittorrent_official(version, output_path):
-    urls = [
-        f"https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-{version}/qbittorrent_{version}_x64_setup.exe/download",
-        f"https://www.fosshub.com/qBittorrent.html?dwl=qbittorrent_{version}_x64_setup.exe"
-    ]
-    for i, url in enumerate(urls):
-        try:
-            source = "SourceForge" if i == 0 else "FossHub"
-            print(f"Downloading installer from {source}...")
-            response = requests.get(url, stream=True)
-            response.raise_for_status()
-            total_size = int(response.headers.get("content-length", 0))
-            downloaded_size = 0
-            start_time = time.time()
-            try:
-                with open(output_path, "wb") as file:
-                    for chunk in response.iter_content(chunk_size=8192):
-                        file.write(chunk)
-                        downloaded_size += len(chunk)
-                        elapsed_time = max(0.001, time.time() - start_time)  # Prevent division by zero
-                        download_speed = downloaded_size / (elapsed_time * 1024 * 1024)
-                        percent_completed = (downloaded_size / (max(1, total_size)) * 100)  # Prevent division by zero
-
-                        print(
-                            f"Downloaded: {percent_completed:.2f}% | "
-                            f"Speed: {download_speed:.2f} MB/s",
-                            end="\r",
-                        )
-                print("\nDownload completed!")
-                return True
-            except Exception as e:
-                print(f"\nError writing file: {e}")
-                return False
-        except requests.RequestException as e:
-            print(f"\nError downloading from {source}: {e}")
-            print("Trying alternate source...")
-            continue
-    print("All download attempts failed.")
-    return False
-
-
 def download_qbittorrent_installer(version, output_path):
     urls = [
         f"https://sourceforge.net/projects/qbittorrent/files/qbittorrent-win32/qbittorrent-{version}/qbittorrent_{version}_x64_setup.exe/download",
